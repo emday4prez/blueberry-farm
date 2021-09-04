@@ -7,6 +7,8 @@ import PhoneNumber from "../components/phone"
 import Location from "../components/location"
 import Info from '../components/info';
 import Hero from '../components/hero';
+import Where from '../components/where';
+import Frozen from '../components/frozen';
 
 
 
@@ -24,8 +26,9 @@ const IndexPage = () => {
 
       <Location/>
        <PhoneNumber/>
-<Info/>
-     
+     <Info/>
+     <Where/>
+     <Frozen/>
       
     </main>
   )

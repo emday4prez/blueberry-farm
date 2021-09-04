@@ -10,7 +10,7 @@ const Location = () => {
       <LocationContainer>
         <TextContainer>
           <h1>Our Location</h1>
-          <h4>The farm is located about 5 miles south of Corvallis.</h4>
+          <SubTitle  >The farm is located about 5 miles south of Corvallis.</SubTitle>
          
           <Address>2322 SE Kiger Island Dr.</Address>
           <Address> Corvallis, OR 97333</Address>
@@ -79,6 +79,7 @@ const TextContainer = styled.div`
   margin: 0 auto;
   margin-top: 2rem;
   color: #3e46a5;
+  text-align: center;
 `
 const MapLink = styled.a`
   color: #3e46a5;
@@ -93,4 +94,7 @@ const MapLink = styled.a`
 const Address = styled.h4`
 padding:0;
 margin: 0;
+`
+const SubTitle = styled.h4`
+text-align: center;
 `
